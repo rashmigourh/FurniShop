@@ -133,7 +133,7 @@
   }
   @media screen and (max-width: 1024px) {
     .newSetteler .new input{
-        width: 50vh;
+        width: 40vh;
         } 
         .footer .box-container{
             grid-template-columns: repeat(2,1fr);

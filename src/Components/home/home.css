@@ -24,7 +24,7 @@
 }
 .image_cards .card{
     display: grid;
-    grid-template-columns:40% 70%;
+    grid-template-columns:40% 60%;
 place-items: center;
 border-radius: 0.8rem;
 cursor: pointer;

@@ -17,6 +17,7 @@
     background-color: var(--color-midBlue);
     width: 40vh;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 } 
 .dropdown .dropdown-content .dropdown-item{
     padding: 1rem;
