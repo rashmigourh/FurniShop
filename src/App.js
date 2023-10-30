@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import slides from "../src/mock.json";
+import Navbar from "../src/Components/navbar/Navbar"
+import Home from './Components/home/Home';
+import Product from './Components/Product/Product';
+import Popular from './Components/popular_product/Popular';
+import SpecialOffer from './Components/special-offer/SpecialOffer';
+import Service from './Components/service/Service';
+import Brands from './Components/brands/Brands';
+import Contact from './Components/contact/Contact';
+import Footer from './Components/footer/Footer';
+import Slider from './Components/slider/Slider';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    <Navbar/>
+    <Home />
+    <Product />
+    <SpecialOffer/>
+    <Popular/>
+    <Service/>
+    <Brands/>
+    <Contact/>
+    <Footer/>
+   </div>
   );
 }
 

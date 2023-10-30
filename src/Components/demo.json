@@ -1,0 +1,20 @@
+[
+    {
+      "image":"https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070_1280.jpg",
+      "title": "Avatar: The Way of Water",
+      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+      "interval": 1500
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg",
+      "title": "Black Adam",
+      "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "interval": 500
+    },
+    {
+      "image": "https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695875.jpg?t=st=1698679043~exp=1698682643~hmac=26b7498a7860a2ae9ac98ce1a50a176e20ca6b409ff17c9155edd43f9a505e5b&w=996",
+      "title": "Black Panther: Wakanda Forever",
+      "subTitle": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+      "interval": 2500
+    }
+  ]

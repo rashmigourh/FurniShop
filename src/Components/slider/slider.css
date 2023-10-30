@@ -1,0 +1,32 @@
+.swiper_slider{
+    width: 90vh;
+    height: 65vh;
+    border-radius: 1rem;
+    /* margin-left: -3rem; */
+    display: grid;
+    place-items: center ;
+    padding: 0 1rem;
+}
+.slider_image {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 900px) {
+    .swiper_slider{
+        width: 80vh;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .swiper_slider{
+        width: 40vh;
+        height: 30vh;
+    }
+}
+    @media screen and (max-width: 400px) {
+        .swiper_slider{
+            width: 45vh;
+            height: 30vh;
+        }
+    }

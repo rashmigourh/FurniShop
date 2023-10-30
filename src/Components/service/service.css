@@ -1,0 +1,96 @@
+/* counter */
+.counter{
+    background-color: #dedada;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    text-align: center;
+    margin: 2rem 25%;
+    padding: 2rem;
+    width: 50%;
+    border-radius: 1rem;
+    user-select: none;
+    cursor: pointer;
+}
+.counter .counter_card h2{
+font-size: 3rem;
+margin: 1rem;
+color: var(--color-darkBlue);
+}
+.counter .counter_card p{
+    font-size: 1.5rem;
+    color: var(--color-midBlue);
+
+    }
+
+.service_container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    place-items: center;
+
+    }
+    .service_item{
+        border-radius: 1rem;
+        padding: 2rem;
+        cursor: pointer;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        margin: 1rem;
+        background-color: #dedada;
+    }
+    .service_item:hover{
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    }
+    .content{
+        padding: 1.2rem;
+    }
+    .service_icon{
+        position: relative;
+        border-radius: 1rem 1rem 0 0;
+        font-size: 4rem;
+        color: var(--color-midBlue);
+    }
+    .service_item h2{
+        font-size: 1.8rem;
+        color: var(--color-darkBlue);
+    }
+    .service_item  p{
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: var(--color-lightBlue);
+    }
+    .star{
+        display: flex;
+        gap: 0.2rem;
+        font-size: 1.5rem;
+        color: orange;
+    }
+    
+    /* media query */
+    @media screen and (max-width: 1024px) {
+        .service_container{
+            grid-template-columns: repeat(3,1fr);
+            gap: 2rem;
+        }
+      }
+    @media screen and (max-width: 700px) {
+        .service_container{
+            grid-template-columns: repeat(2,1fr);
+            gap: 2rem;
+        }
+        .counter{
+            grid-template-columns: repeat(2,1fr);
+            margin: 2rem 0%;
+            padding: 2rem;
+            width: 100%;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .service_container{
+            grid-template-columns: 1fr;
+            gap: 0rem;
+        }
+      }
