@@ -17,6 +17,18 @@ padding: 1rem;
 font-size: 1.8rem;
 border-radius: 0 0.5rem 0.5rem 0;
 }
+/* @media (min-device-width: 1040px) and (max-device-width: 1050px) {
+    .search_container .bar input{
+        width: 70vh;
+        }
+} */
+
+@media screen and (max-width: 1180px) {
+    .search_container .bar input{
+        width: 40vh;
+        }
+    
+  }
 
 @media screen and (max-width: 912px) {
     .search_container .bar input{
