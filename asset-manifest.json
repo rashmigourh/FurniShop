@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/FurniShop/static/css/main.f63c31de.css",
-    "main.js": "/FurniShop/static/js/main.ba42d09c.js",
+    "main.css": "/FurniShop/static/css/main.311c3058.css",
+    "main.js": "/FurniShop/static/js/main.dccab289.js",
     "static/js/787.a92908ab.chunk.js": "/FurniShop/static/js/787.a92908ab.chunk.js",
     "static/media/brand6.png": "/FurniShop/static/media/brand6.6690e78c0d0c1dc87bed.png",
     "static/media/card2.png": "/FurniShop/static/media/card2.0a5e6d8d3a288544c99b.png",
+    "static/media/home_img.jpg": "/FurniShop/static/media/home_img.8d42b87c79d1405dd104.jpg",
     "static/media/popu4.png": "/FurniShop/static/media/popu4.a0fd37f14095e9ad6695.png",
     "static/media/card4.png": "/FurniShop/static/media/card4.c23bcbc2d6ca120e5562.png",
     "static/media/special1.jpg": "/FurniShop/static/media/special1.fc002aa69aad9cb10a6a.jpg",
@@ -21,7 +22,6 @@
     "static/media/card3.png": "/FurniShop/static/media/card3.91372917f222bbc2633a.png",
     "static/media/contact_img.avif": "/FurniShop/static/media/contact_img.9a11e2a00aa1033269f3.avif",
     "static/media/img5.avif": "/FurniShop/static/media/img5.0fea453edca430f83ea0.avif",
-    "static/media/slider2.avif": "/FurniShop/static/media/slider2.249f39b75aafab9315a8.avif",
     "static/media/img2.avif": "/FurniShop/static/media/img2.430bd35418b8544dd788.avif",
     "static/media/brand5.jpg": "/FurniShop/static/media/brand5.5aed5a0d6fed42cb8202.jpg",
     "static/media/img3.avif": "/FurniShop/static/media/img3.11c6c90e105931fb9620.avif",
@@ -33,12 +33,12 @@
     "static/media/img7.avif": "/FurniShop/static/media/img7.58dbc4ca6fb3c2d66ce9.avif",
     "static/media/img4.avif": "/FurniShop/static/media/img4.b000190c800d35dcc622.avif",
     "index.html": "/FurniShop/index.html",
-    "main.f63c31de.css.map": "/FurniShop/static/css/main.f63c31de.css.map",
-    "main.ba42d09c.js.map": "/FurniShop/static/js/main.ba42d09c.js.map",
+    "main.311c3058.css.map": "/FurniShop/static/css/main.311c3058.css.map",
+    "main.dccab289.js.map": "/FurniShop/static/js/main.dccab289.js.map",
     "787.a92908ab.chunk.js.map": "/FurniShop/static/js/787.a92908ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f63c31de.css",
-    "static/js/main.ba42d09c.js"
+    "static/css/main.311c3058.css",
+    "static/js/main.dccab289.js"
   ]
 }
