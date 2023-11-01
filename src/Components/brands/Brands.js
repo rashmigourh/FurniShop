@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import "../brands/brands.css"
 import IMG1 from "../../assets/brand1.jpg"
 import IMG2 from "../../assets/brand2.png"
 import IMG3 from "../../assets/brand3.png"
@@ -21,11 +22,11 @@ import 'aos/dist/aos.css';
     <div className='container'>
       <div className="marquee" style={{marginTop:"10rem", width:"100%"}} data-aos="fade-up">
         <marquee direction="left" scrollAmount="10">
-            <img src={IMG1} alt="" height={"90vh"} style={{margin:"0 1rem"}}/>
-            <img src={IMG2} alt="" height={"90vh"} style={{margin:"0 1rem"}}/>
-            <img src={IMG3} alt="" height={"90vh"} style={{margin:"0 1rem"}}/>
-            <img src={IMG5} alt="" height={"90vh"} style={{margin:"0 1rem"}}/>
-            <img src={IMG6} alt="" height={"90vh"} style={{margin:"0 1rem"}}/>
+            <img src={IMG1} alt="" style={{margin:"0 1rem"}}/>
+            <img src={IMG2} alt="" style={{margin:"0 1rem"}}/>
+            <img src={IMG3} alt="" style={{margin:"0 1rem"}}/>
+            <img src={IMG5} alt="" style={{margin:"0 1rem"}}/>
+            <img src={IMG6} alt="" style={{margin:"0 1rem"}}/>
         </marquee>
       </div>
     </div>
