@@ -4,23 +4,22 @@ import img1 from "../../assets/card1.png"
 import img2 from "../../assets/card2.png"
 import img3 from "../../assets/card3.png"
 import img4 from "../../assets/card4.png"
-import img5 from "../../assets/slider2.avif"
-import Slider from '../slider/Slider'
-import slides from '../demo.json'
+import img from "../../assets/home_img.jpg"
 
 function Home() {
   return (
-    <div className="container home">
+    <div className="container">
+        <div className="home">
         <div className='home_container'>
       <div className="image_slider">
-        <Slider slides={slides}/>
+        <img src={img} alt="" />
       </div>
 
       <div className="image_cards">
         <div className="card" style={{background:"var(--color-green)"}}>
             <div className="content">
                 <h1>BEST SALE</h1>
-                <p>Comfortable</p>
+                <p>Comfort</p>
                 <p>Chair</p>
                 <div className="price">
                     <p>From  &#8377;3000 to  &#8377;5000</p>
@@ -71,7 +70,7 @@ function Home() {
         </div>
       </div>
       </div>
-
+      </div>
     </div>
   )
 }

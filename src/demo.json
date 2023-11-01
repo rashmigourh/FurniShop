@@ -1,0 +1,32 @@
+[
+    {
+      "image":"https://cdn.pixabay.com/photo/2017/02/07/18/16/living-room-2046668_1280.jpg",
+      "title": "Avatar: The Way of Water",
+      "interval": 1500
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg",
+      "title": "Black Adam",
+      "interval": 500
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070_1280.jpg ",
+      "title": "Black Panther: Wakanda Forever",
+      "interval": 2500
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2016/11/22/19/11/brick-wall-1850095_1280.jpg ",
+      "title": "Black Panther: Wakanda Forever",
+      "interval": 2500
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2017/06/13/22/42/kitchen-2400367_1280.jpg",
+      "title": "Black Panther: Wakanda Forever",
+      "interval": 2500
+    },
+    {
+      "image": "https://cdn.pixabay.com/photo/2018/10/28/12/37/bedroom-3778695_1280.jpg ",
+      "title": "Black Panther: Wakanda Forever",
+      "interval": 2500
+    }
+  ]

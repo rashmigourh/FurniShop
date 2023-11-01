@@ -9,19 +9,20 @@ import 'swiper/css/scrollbar';
 
 function Slider({slides}) {
   return (
-    <div>
+    <div className='container'>
       <Swiper 
       style={{
         "--swiper-pagination-color": "white",
         "--swiper-navigation-color": "white"}}
       className='swiper_slider'
        modules={[Navigation, Pagination,A11y]}
-      spaceBetween={20}
-      slidesPerView={1}
+      spaceBetween={10}
+      slidesPerView={2}
       navigation
       pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      
     >
         {slides.map((slide)=>(
         <SwiperSlide key={slide.image}>

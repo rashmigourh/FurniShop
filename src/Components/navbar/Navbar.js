@@ -11,7 +11,7 @@ function Navbar() {
   const [menuBar, setMenuBar]=useState(false); 
   
   return (
-    <div id='home'>
+    <div id='nav'>
       {/* top_container */}
       <div className="top_head">
         <p>Free Shipping Over &#8377;100 & Free Returns</p>
