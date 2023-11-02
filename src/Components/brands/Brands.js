@@ -21,7 +21,7 @@ import 'aos/dist/aos.css';
   return (
     <div className='container'>
       <div className="marquee" style={{marginTop:"10rem", width:"100%"}} data-aos="fade-up">
-        <marquee direction="left" scrollAmount="10">
+        <marquee direction="left">
             <img src={IMG1} alt="" style={{margin:"0 1rem"}}/>
             <img src={IMG2} alt="" style={{margin:"0 1rem"}}/>
             <img src={IMG3} alt="" style={{margin:"0 1rem"}}/>

@@ -20,7 +20,7 @@ function Footer() {
       </div>
         </div>
     <div className="box-container">
-    <div class="box">
+    <div className="box">
         <h3>Contact Us</h3>
         <p>FurniShop</p>
         <p>No. 1259 Freedom, New York, 11111</p>
