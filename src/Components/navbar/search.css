@@ -6,9 +6,10 @@
 }
 .search_container .bar input{
 height: 3rem;
-width: 100vh;
+width: 80vh;
 padding: 2rem;
 border-radius: 0.5rem 0 0 0.5rem;
+/* background-color: red; */
 }
 .search_container .icon{
     height: 4rem;
@@ -18,17 +19,6 @@ padding: 1rem;
 font-size: 1.8rem;
 border-radius: 0 0.5rem 0.5rem 0;
 }
-
-@media (min-device-width: 1182px) and (max-device-width: 1560px) {
-    .search_container .bar input{
-        width: 60vh;
-        }
-}
-/* @media screen and (max-width: 1291px) {
-    .search_container .bar input{
-        width: 50vh;
-        } 
-  } */
 
 @media screen and (max-width: 1180px) {
     .search_container .bar input{
