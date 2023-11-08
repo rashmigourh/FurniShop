@@ -24,7 +24,7 @@
   }
   .newSetteler .new input{
     height: 3rem;
-    width: 50vh;
+    width: 100%;
     padding: 2rem;
     border-radius: 0.5rem 0 0 0.5rem;
   }
@@ -135,23 +135,12 @@
   }
 
   @media screen and (max-width: 1180px) {
-    .newSetteler .new input{
-        width: 40vh;
-        } 
         .footer .box-container{
           grid-template-columns: repeat(2,1fr);
           place-items: center;
       }
   }
-  @media screen and (max-width: 937px) {
-    .newSetteler .new input{
-      width: 20vh;
-      } 
-}
   @media screen and (max-width: 600px) {
-    .newSetteler .new input{
-        width: 35vh;
-        } 
         .newSetteler{
             grid-template-columns: repeat(1,1fr);
         }

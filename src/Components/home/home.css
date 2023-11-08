@@ -2,15 +2,6 @@
     display: grid;
     place-items: center;
 } */
-.home_container{
-    display: grid;
-    grid-template-columns: 48% 52%;
-    gap: 2rem;
-    padding: 5rem 0;
-}
-.home_container .image_slider{
-    width: 100%;
-}
 .home_container .image_slider img{
     border-radius: 2rem;
      width: 100%;
@@ -21,8 +12,9 @@
 }
 .image_cards{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 2rem;
+    padding: 5rem 0;
 }
 .image_cards .card{
     display: grid;

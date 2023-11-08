@@ -23,8 +23,8 @@ function Navbar() {
       <div className="logo">
                   <h2><span>F</span>urni<span>S</span>hop</h2>
       </div>
-      <div className="searchBar flex-wrap">
-      <Search />
+      <div className="searchBar">
+      <Search/>
       </div>
 
       <div className="icons_container flex-wrap">
