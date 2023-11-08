@@ -49,7 +49,6 @@
     }
 
     .specialOffer_container .item-image img{
-        height: 20rem;
         width: 100%;
         cursor: pointer;
     }
@@ -74,9 +73,9 @@
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
         }
-        .specialOffer_container .item-image img{
+        /* .specialOffer_container .item-image img{
             height: 40rem;
-        }
+        } */
       }
       @media screen and (max-width: 450px) {
         .specialOffer_container{
