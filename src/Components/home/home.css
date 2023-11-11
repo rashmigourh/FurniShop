@@ -1,7 +1,13 @@
-/* .home{
+.home_container{
     display: grid;
-    place-items: center;
-} */
+    grid-template-columns: 48% 50%;;
+    gap: 2rem;
+    padding: 5rem 0;
+}
+.home_container img{
+    width: 100%;
+    height: 100%;
+}
 .home_container .image_slider img{
     border-radius: 2rem;
      width: 100%;
@@ -9,9 +15,9 @@
 }
 .image_cards{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 2rem;
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
 }
 .image_cards .card{
 display: grid;

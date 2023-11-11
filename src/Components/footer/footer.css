@@ -50,7 +50,6 @@
   }
   .footer .box-container .box{
     padding: 2rem 10%;
-    height: 40vh;
     width: 100%;
     display: grid;
     place-items: center;

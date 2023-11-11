@@ -10,6 +10,9 @@ function Home() {
   return (
     <div className="container">
         <div className='home_container'>
+            <div className="image_left">
+                <img src={img} alt="" />
+            </div>
         <div className='image_cards'>
         <div className="card" style={{background:"var(--color-green)"}}>
             <div className="content">
@@ -63,62 +66,7 @@ function Home() {
                 <img src={img4} alt="" />
             </div>
         </div>
-
-        <div className="card" style={{background:"var(--color-green)"}}>
-            <div className="content">
-                <h1>BEST SALE</h1>
-                <p>Comfort</p>
-                <p>Chair</p>
-                <div className="price">
-                    <p>From  &#8377;3000 to  &#8377;5000</p>
-                </div>
-            </div>
-            <div className="image">
-                <img src={img1} alt="" />
-            </div>
-        </div>
-
-        <div className="card" style={{background:"var(--color-green)"}}>
-            <div className="content">
-                <h1>BEST SALE</h1>
-                <p>Comfort</p>
-                <p>Chair</p>
-                <div className="price">
-                    <p>From  &#8377;3000 to  &#8377;5000</p>
-                </div>
-            </div>
-            <div className="image">
-                <img src={img1} alt="" />
-            </div>
-        </div>
-
-        <div className="card" style={{background:"var(--color-green)"}}>
-            <div className="content">
-                <h1>BEST SALE</h1>
-                <p>Comfort</p>
-                <p>Chair</p>
-                <div className="price">
-                    <p>From  &#8377;3000 to  &#8377;5000</p>
-                </div>
-            </div>
-            <div className="image">
-                <img src={img1} alt="" />
-            </div>
-        </div>
-
-        <div className="card" style={{background:"var(--color-green)"}}>
-            <div className="content">
-                <h1>BEST SALE</h1>
-                <p>Comfort</p>
-                <p>Chair</p>
-                <div className="price">
-                    <p>From  &#8377;3000 to  &#8377;5000</p>
-                </div>
-            </div>
-            <div className="image">
-                <img src={img1} alt="" />
-            </div>
-        </div>
+       
       </div>
       </div>
       </div>

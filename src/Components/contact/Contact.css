@@ -3,13 +3,10 @@
     grid-template-columns: repeat(2,1fr);
     gap: 3rem;
     place-items: center;
-    /* background-color: red; */
-    width: 100%;
 }
 .contact_image img{ 
    border-radius: 1rem;
    width: 100%;
-   height: 50vh;
 }
 
 .form_container{
