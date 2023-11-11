@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FurniShop/static/css/main.882fb6ac.css",
-    "main.js": "/FurniShop/static/js/main.f246920c.js",
+    "main.css": "/FurniShop/static/css/main.c405534f.css",
+    "main.js": "/FurniShop/static/js/main.47adb2fe.js",
     "static/js/787.a92908ab.chunk.js": "/FurniShop/static/js/787.a92908ab.chunk.js",
     "static/media/brand6.png": "/FurniShop/static/media/brand6.6690e78c0d0c1dc87bed.png",
     "static/media/card2.png": "/FurniShop/static/media/card2.0a5e6d8d3a288544c99b.png",
@@ -33,12 +33,12 @@
     "static/media/img7.avif": "/FurniShop/static/media/img7.58dbc4ca6fb3c2d66ce9.avif",
     "static/media/img4.avif": "/FurniShop/static/media/img4.b000190c800d35dcc622.avif",
     "index.html": "/FurniShop/index.html",
-    "main.882fb6ac.css.map": "/FurniShop/static/css/main.882fb6ac.css.map",
-    "main.f246920c.js.map": "/FurniShop/static/js/main.f246920c.js.map",
+    "main.c405534f.css.map": "/FurniShop/static/css/main.c405534f.css.map",
+    "main.47adb2fe.js.map": "/FurniShop/static/js/main.47adb2fe.js.map",
     "787.a92908ab.chunk.js.map": "/FurniShop/static/js/787.a92908ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.882fb6ac.css",
-    "static/js/main.f246920c.js"
+    "static/css/main.c405534f.css",
+    "static/js/main.47adb2fe.js"
   ]
 }
