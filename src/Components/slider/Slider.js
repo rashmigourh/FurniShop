@@ -25,7 +25,7 @@ function Slider({slides}) {
       
     >
         {slides.map((slide)=>(
-        <SwiperSlide key={slide.image}>
+        <SwiperSlide key={slide.image} className='swiperSlider'>
         <img src={slide.image} alt={slide.title} className='slider_image'/>
         </SwiperSlide> 
         ))}
