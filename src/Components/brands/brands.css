@@ -1,17 +1,14 @@
 .marquee img{
     height: 20vh;
-    width: 20%;
 }
 
 @media screen and (max-width: 600px) {
     .marquee img{
         height: 20vh;
-        width: 50%;
     }
    }
    @media screen and (max-width: 280px) {
     .marquee img{
         height: 20vh;
-        width: 70%;
     }
    }
